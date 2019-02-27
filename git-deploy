@@ -4,6 +4,7 @@
 # export PATH=$PATH:/home/<userName>/bin  => The script will now be usable from any directory.
 # cd bin => Go to bin directory.
 # touch git deploy => Creates the file where to copy and paste the script.
+# chmod u+x git-deploy => Gives the user the execution rights.
 
 
 
