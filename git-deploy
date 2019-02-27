@@ -14,6 +14,7 @@ then
 fi
 
 
+
 read -r -p 'Commit message: ' ci  # Prompt the user the commit message.
 
 git add .                         # Add all file.
