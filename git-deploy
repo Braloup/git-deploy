@@ -1,0 +1,18 @@
+#!/bin/bash
+# cd ~  => For going home.
+# mkdir bin => For create a directory home/<userName>/bin.
+# export PATH=$PATH:/home/<userName>/bin  => The script will now be usable from any directory.
+# cd bin => Go to bin directory.
+# touch git deploy => Creates the file where to copy and paste the script.
+
+
+
+read -r -p 'Commit message: ' ci  # Prompt the user the commit message.
+
+git add .                         # Add all file.
+
+git add -u                        # Track deleted files.
+
+git commit -m "$ci"               # Commit with your message.
+
+git push origin master            # ush to origin.
