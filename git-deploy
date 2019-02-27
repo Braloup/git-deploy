@@ -5,7 +5,10 @@
 # cd bin => Go to bin directory.
 # touch git deploy => Creates the file where to copy and paste the script.
 # chmod u+x git-deploy => Gives the user the execution rights.
+<<<<<<< HEAD
 
+=======
+>>>>>>> ce370b1943f2634077a1b3c9ad4e99b747e93079
 
 
 read -r -p 'Commit message: ' ci  # Prompt the user the commit message.
@@ -16,4 +19,4 @@ git add -u                        # Track deleted files.
 
 git commit -m "$ci"               # Commit with your message.
 
-git push origin master            # ush to origin.
+git push origin master            # push to origin.
