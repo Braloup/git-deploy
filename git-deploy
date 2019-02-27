@@ -3,7 +3,7 @@
 # mkdir bin => For create a directory home/<userName>/bin.
 # export PATH=$PATH:/home/<userName>/bin  => The script will now be usable from any directory.
 # cd bin => Go to bin directory.
-# touch git deploy => Creates the file where to copy and paste the script.
+# touch git-deploy => Creates the file where to copy and paste the script.
 
 
 git_ignore = ".gitignore"
